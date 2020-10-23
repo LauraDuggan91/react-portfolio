@@ -1,0 +1,19 @@
+.App {
+  color: white;
+  background-color: #151515;
+}
+
+.triple-column-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-6 {
+  width: 75%;
+}
+

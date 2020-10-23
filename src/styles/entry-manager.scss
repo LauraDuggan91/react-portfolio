@@ -1,0 +1,91 @@
+.entry-manager {
+    position: absolute;
+    right: 0;
+    min-height: 100vh;
+    background-color: #151515;
+    color: white;
+    .col-6 {
+        width: 75%;
+    }
+    .overview {
+        font-size: 18px;
+        line-height: 25px;
+        a {
+            font-weight: 600;
+            color: #e66760;
+            text-decoration: none;
+        }
+    }
+    .header {
+        height: 100vh;
+        position: absolute;
+    }
+    .header-image {
+        width: 100%;
+    }
+    .col-5 {
+        border-top: 4px solid white;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .content {
+            width: 50%;
+            font-size: 18px;
+            line-height: 25px;
+            padding-right: 24px;
+        }
+        h3 {
+            width: 50%;
+            font-size: 30px;
+            margin-top: 18px;
+        }
+        .header-image {
+            width: 50%;
+        }
+    }
+    .paragraph-break {
+        margin-top: 18px;
+    }
+
+    .slide-gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
+            width: calc(50% - 16px);
+            margin: 8px;
+        }
+    }
+    .legacy-gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
+            width: calc(33% - 24px);
+            margin: 8px;
+        }
+    }
+    .gif-image {
+        margin-bottom: 150px;
+    }
+    .image-full {
+        width: calc(99% - 16px);
+        margin: 8px;
+    }
+    .image-gallery-thumbnails-wrapper, .image-gallery-play-button {
+        display: none;
+    }
+    .image-gallery-icon {
+        filter: none;
+        color: #333;
+        &:hover {
+            color: #151515;
+        }
+
+    }
+}
+
+

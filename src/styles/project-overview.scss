@@ -1,0 +1,63 @@
+.project-overview {
+    position: fixed;
+    left: 0;
+    background-color: #151515;
+    color: white;
+    font-weight: 300;
+    height: 100vh;
+    overflow: hidden;
+    min-width: 277px;
+    width: 25%;
+    .logo-link {
+        height: 30px;
+        margin: 24px;
+    }
+
+    .project-list {
+        top: 50%;
+        transform: translateY(50%);
+        ul {
+            list-style-type: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            line-height: 32px;
+            font-size: 18px;
+            padding-left: 24px;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    
+    .resume-link {
+        float: right;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 24px;
+        color: white;
+    }
+    .footer {
+        bottom: 24px;
+        position: absolute;
+        margin: 24px;
+        width: calc(100% - 48px);
+        .email {
+            padding-bottom: 12px;
+        }
+        .social-icons {
+            width: 100%;
+            border-top: 3px solid white;
+            padding-top: 12px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            svg {
+                fill: white;
+            }
+
+        }
+    }
+}
