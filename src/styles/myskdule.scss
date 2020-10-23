@@ -33,3 +33,20 @@
         }
     }
 }
+
+@media only screen and (max-width: 750px) {
+    .myskdule {
+        top: 100vh;
+        #ms-myskdule {
+            padding: 0 24px;
+        }
+        .col-5 {
+            display: block;
+            padding: 0 24px;
+
+            .content {
+                width: 100%;
+            }
+        }
+    }
+  }

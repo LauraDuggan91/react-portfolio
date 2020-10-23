@@ -89,3 +89,27 @@
 }
 
 
+@media only screen and (max-width: 750px) {
+    .entry-manager {
+        top: 100vh;
+        #em-header .content {
+            padding: 0 24px;
+        }
+        .col-5 {
+            display: block;
+            padding: 0 24px;
+
+            .content {
+                width: 100%;
+            }
+        }
+        h4 {
+            padding: 0 24px;
+        }
+        .gif-image {
+            margin-bottom: 12px;
+        }     
+    }
+  }
+
+

@@ -61,3 +61,11 @@
         }
     }
 }
+
+@media only screen and (max-width: 750px) {
+        
+    .project-overview {
+        width: 100%;
+        position: absolute;
+    }
+}

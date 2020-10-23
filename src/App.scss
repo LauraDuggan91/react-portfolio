@@ -17,3 +17,8 @@
   width: 75%;
 }
 
+@media only screen and (max-width: 750px) {
+  .col-3, .col-6 {
+      width: 100%;
+  }
+}
