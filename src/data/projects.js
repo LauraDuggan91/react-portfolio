@@ -20,7 +20,7 @@ const projects = [{
     title: 'Nickelson Homes Website',
     type: 'Development (HTML, CSS, JavaScript, Jquery)',
     image: 'NickelsonHomes',
-    url: 'http://lauraduggan.ca/nickelsonhomes'
+    url: 'https://lauraduggan91.github.io/nickelson-homes/'
 }]
 
 export default projects
