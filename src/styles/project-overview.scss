@@ -1,8 +1,7 @@
 .project-overview {
     position: fixed;
     left: 0;
-    background-color: #151515;
-    color: white;
+    color: 151515;
     font-weight: 300;
     height: 100vh;
     overflow: hidden;
@@ -24,7 +23,7 @@
             font-size: 18px;
             padding-left: 24px;
             a {
-                color: white;
+                color: #151515;
                 text-decoration: none;
             }
         }
@@ -37,7 +36,7 @@
         font-weight: 700;
         line-height: 30px;
         margin: 24px;
-        color: white;
+        color: #151515;
     }
     .footer {
         bottom: 24px;
@@ -49,13 +48,13 @@
         }
         .social-icons {
             width: 100%;
-            border-top: 3px solid white;
+            border-top: 2px solid #151515;
             padding-top: 12px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             svg {
-                fill: white;
+                fill: #151515;
             }
 
         }

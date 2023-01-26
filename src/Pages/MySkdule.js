@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './../assets/iconlogo.png';
 import resume from './../assets/LauraDuggan.jpg'
-import { FaTwitter, FaCodeBranch, FaLinkedinIn } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 import MySkduleImg from './../assets/MySkdule.png'
 import IsoSkdule from './../assets/IsoSkdule.jpg'
 
@@ -31,8 +31,6 @@ const MySkdule = () => {
                 <div className='footer'>
                     <div className='email'>lauracatherineduggan@gmail.com</div>
                     <div className='social-icons'>
-                        <a href='https://twitter.com/atlauraduggan' rel="noopener noreferrer"  target='_blank'><FaTwitter /></a>
-                        <a href='https://github.com/LauraDuggan91' rel="noopener noreferrer"  target='_blank'><FaCodeBranch /></a>
                         <a href='https://www.linkedin.com/in/lauracduggan/' rel="noopener noreferrer"  target='_blank'><FaLinkedinIn /></a>
                     </div>
                 </div>

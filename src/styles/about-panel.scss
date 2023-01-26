@@ -1,9 +1,8 @@
 
 .about-panel {
     position: fixed;
-    color: white;
+    color: #151515;
     left: 0;
-    background-color: #151515;
     font-weight: 300;
     height: 100vh;
     overflow: hidden;
@@ -16,7 +15,7 @@
     
     .resume-link {
         float: right;
-        color: white;
+        color: #151515;
         text-decoration: none;
         font-size: 14px;
         font-weight: 700;
@@ -24,13 +23,14 @@
         margin: 24px;
     }
     .name-text {
-        font-size: 36px;
+        font-size: 24px;
         margin-bottom: 24px;
         font-weight: 500;
     }
 
     .about-text {
-        font-size: 32px;
+        font-size: 20px;
+        line-height: 26px;
         position: absolute;
         top: 40%;
         transform: translateY(-50%);
@@ -40,6 +40,7 @@
     .footer {
         bottom: 24px;
         position: absolute;
+        color: #151515;
         margin: 24px;
         width: calc(100% - 48px);
         .email {
@@ -47,13 +48,13 @@
         }
         .social-icons {
             width: 100%;
-            border-top: 3px solid white;
+            border-top: 2px solid #151515;
             padding-top: 12px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             svg {
-                fill: white;
+                fill: #151515;
             }
 
         }

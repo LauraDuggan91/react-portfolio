@@ -1,12 +1,11 @@
 .design-panel {
     position: absolute;
     right: 0;
-    background-color: #151515;
     min-height: 100vh;
 
     .images-container {
         .image-container {
-            color: white;
+            color: #151515;
             text-decoration: none;
             margin-top: 8px;
             height: 325px;
@@ -16,7 +15,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             a {
-                color: white;
+                color: #151515;
                 text-decoration: none;
             }
         }
@@ -34,6 +33,7 @@
         .card-title {
             font-weight: bold;
             text-transform: uppercase;
+            color: #151515;
             font-size: 20px;
             margin-bottom: 24px;
             svg {
