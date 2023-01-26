@@ -12,11 +12,6 @@ const projects = [{
     image: 'NewToronto',
     url: 'http://newtorontotreecare.com'
 }, {
-    title: 'Nail Your Date Web App',
-    type: 'Development (HTML, CSS, JavaScript)',
-    image: 'NailDate',
-    url: 'https://lauraduggan91.github.io/nailApp/'
-}, {
     title: 'Nickelson Homes Website',
     type: 'Development (HTML, CSS, JavaScript, Jquery)',
     image: 'NickelsonHomes',

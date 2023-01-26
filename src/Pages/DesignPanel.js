@@ -55,7 +55,7 @@ const DesignPanel = () => {
         <div className='design-panel col-6'>
             <div className='images-container'>
             {projects.map((project, index) => (
-                <div className='image-container' key={index} style={{backgroundImage: backgroundImage(project.image)}}>
+                <div className='image-container' key={index}>
                     <div>
                         {project.url ? (
                             <a href={project.url} target='_blank' rel="noopener noreferrer">
